@@ -38,6 +38,12 @@ print("Name", name.capitalize())
 print("Length of phrase:", len("declaration_of_independence"))  
 declaration_of_independence = "The unanimous Declaration of the thirteen united States of America, When in the Course of human events, it becomes necessary for one people to dissolve the political bands which have connected them with another, and to assume among the powers of the earth, the separate and equal station to which the Laws of Nature and of Nature's God entitle them, a decent respect to the opinions of mankind requires that they should declare the causes which impel them to the separation."
 # # ----------------------------------------
+
+chicago_mayor = "Johnson"
+print(len(chicago_mayor))
+print(chicago_mayor[0])
+print(chicago_mayor[4])
+print(chicago_mayor[-1])
 # # 3. Indexing and Slicing
 
 # # --------------------------------------
