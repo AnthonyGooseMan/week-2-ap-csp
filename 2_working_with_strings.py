@@ -45,7 +45,7 @@ print(chicago_mayor[0])
 print(chicago_mayor[4])
 print(chicago_mayor[-1])
 # # 3. Indexing and Slicing
-
+print(chicago_mayor[0:5])
 # # --------------------------------------
 # # Indexing: Access characters by position (0-based index)
 # print("First character:", phrase[0])  # Output: P
