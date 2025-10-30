@@ -75,11 +75,11 @@ print(chicago_mayor[0:5])
 # # String Methods
 # # ----------------------------------------
 
-# sentence = "Python is fun to learn"
+sentence = "Python is fun to learn"
 
 # # .split(): Splits the string into a list of words
-# words = sentence.split()
-# print("Split result:", words)
+words = sentence.split()
+print("Split result:", words)
 
 # # .format(): Allows inserting values into strings using {}
 # name = "Marvin"
@@ -90,3 +90,9 @@ print(chicago_mayor[0:5])
 # # You can also use f-strings (Python 3.6+)
 # intro_fstring = f"My name is {name} and I am {age} years old."
 # print(intro_fstring)
+question = input("what is your first name?")
+question2 = input("what is your last name?")
+print(question + question2)
+num3 = int(input("number 3 please"))
+num4 = int(input("number 4 please"))
+print(num3 + num4)
